@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Andrés Guillermo Sánchez Solano — Backend Developer focused on Python, APIs and automation, currently learning Go.">
+<meta name="theme-color" content="#050505">
+<meta property="og:title" content="Andrés Sánchez | Backend Developer">
+<meta property="og:description" content="Backend development, APIs, automation and Go.">
+<meta property="og:type" content="website">
+<title>Andrés Sánchez | Backend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="cursor-dot"></div><div class="cursor-ring"></div><div class="mouse-glow"></div>
+
+<div id="boot-screen" class="boot-screen">
+  <div class="boot-container">
+    <div class="boot-logo">A<span>.</span></div>
+    <div class="boot-title">ANDRÉS SANCHEZ</div>
+    <div class="boot-subtitle">BACKEND DEVELOPER</div>
+    <div class="boot-terminal">
+      <div><span>[OK]</span> initializing system...</div>
+      <div><span>[OK]</span> loading interface...</div>
+      <div><span>[OK]</span> loading portfolio...</div>
+      <div><span>[OK]</span> establishing connection...</div>
+      <div class="boot-final">SYSTEM://ONLINE</div>
+    </div>
+    <div class="boot-progress"><div id="boot-progress-bar"></div></div>
+    <div id="boot-percent" class="boot-percent">0%</div>
+  </div>
+</div>
+
+<header class="navbar">
+  <div class="nav-container">
+    <a href="#home" class="logo">A<span>.</span></a>
+    <nav>
+      <a href="#home" data-section="home">HOME</a>
+      <a href="#about" data-section="about">ABOUT</a>
+      <a href="#stack" data-section="stack">STACK</a>
+      <a href="#projects" data-section="projects">PROJECTS</a>
+      <a href="#contact" data-section="contact">CONTACT</a>
+    </nav>
+    <div class="nav-status"><span></span> ONLINE</div>
+  </div>
+</header>
+
+<div class="section-indicator"><span id="current-section">01</span><div></div><span>05</span></div>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <div class="system-status"><span class="status-dot"></span>SYSTEM://ONLINE</div>
+      <h1>ANDRÉS<br><span>SANCHEZ</span></h1>
+      <div class="hero-role">BACKEND DEVELOPER</div>
+      <p class="hero-description">Focused on Python, APIs and automation. Currently learning Go and exploring the world of DevOps and DevSecOps.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="button button-primary magnetic">VIEW PROJECTS <span>↗</span></a>
+        <a href="#contact" class="button button-secondary magnetic">CONTACT</a>
+      </div>
+    </div>
+
+    <div class="terminal" id="terminal">
+      <div class="terminal-top"><div class="terminal-buttons"><span></span><span></span><span></span></div><div class="terminal-title">andres@portfolio:~</div></div>
+      <div class="terminal-content" id="terminal-output">
+        <div class="terminal-line"><span class="terminal-green">andres@portfolio</span>:~$ whoami</div>
+        <div class="terminal-output">Backend Developer</div>
+        <div class="terminal-line"><span class="terminal-green">andres@portfolio</span>:~$ focus</div>
+        <div class="terminal-output">Python · APIs · Automation · Go</div>
+        <div class="terminal-line"><span class="terminal-green">andres@portfolio</span>:~$ status</div>
+        <div class="terminal-output terminal-green">ONLINE</div>
+        <div class="terminal-line"><span class="terminal-green">andres@portfolio</span>:~$ <span class="cursor">█</span></div>
+      </div>
+      <div class="terminal-input-line"><span class="terminal-green">andres@portfolio:~$</span><input id="terminal-input" type="text" autocomplete="off" spellcheck="false" aria-label="Terminal input"></div>
+    </div>
+  </div>
+  <div class="scroll-indicator"><span></span>SCROLL TO EXPLORE</div>
+</section>
+
+<section id="about" class="section about">
+  <div class="section-label">02 / ABOUT</div>
+  <div class="section-content about-grid">
+    <div class="section-title"><h2>BUILDING<br><span>THINGS.</span></h2></div>
+    <div class="about-text">
+      <p class="large-text">I'm a 20-year-old software development student at SENA, focused mainly on backend development.</p>
+      <p>I work primarily with Python, building APIs, automation scripts and tools that solve practical problems. I'm currently learning Go, including backend services, CLI tools and basic concurrency.</p>
+      <p>My long-term interest is moving deeper into DevOps or DevSecOps, combining software development with infrastructure, automation and security.</p>
+      <div class="about-stats"><div><strong>01</strong><span>BACKEND</span></div><div><strong>02</strong><span>AUTOMATION</span></div><div><strong>03</strong><span>DEVOPS / DEVSECOPS</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="stack" class="section stack">
+  <div class="section-label">03 / STACK</div>
+  <div class="section-content">
+    <h2>TOOLS<br><span>I USE.</span></h2>
+    <p class="stack-intro">A practical stack centered around backend development, APIs, automation and the tooling around them.</p>
+    <div class="stack-grid">
+      <div class="stack-item magnetic-card"><div class="stack-header"><span>01</span><span>BACKEND</span></div><h3>PYTHON</h3><p>Backend · APIs · Automation</p><i>↗</i></div>
+      <div class="stack-item magnetic-card"><div class="stack-header"><span>02</span><span>LEARNING</span></div><h3>GO</h3><p>Backend · CLI · APIs · Concurrency</p><i>↗</i></div>
+      <div class="stack-item magnetic-card"><div class="stack-header"><span>03</span><span>INTEGRATION</span></div><h3>REST APIs</h3><p>Authentication · CRUD · JSON · Integration</p><i>↗</i></div>
+      <div class="stack-item magnetic-card"><div class="stack-header"><span>04</span><span>AUTOMATION</span></div><h3>SCRIPTS</h3><p>Automation · Data extraction · Request handling</p><i>↗</i></div>
+      <div class="stack-item magnetic-card"><div class="stack-header"><span>05</span><span>DATA</span></div><h3>DATABASES</h3><p>SQLite · PostgreSQL · Data handling</p><i>↗</i></div>
+      <div class="stack-item magnetic-card"><div class="stack-header"><span>06</span><span>TOOLING</span></div><h3>GIT / GITHUB</h3><p>Version control · Collaboration · Development</p><i>↗</i></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section projects">
+  <div class="section-label">04 / PROJECTS</div>
+  <div class="section-content">
+    <h2>SELECTED<br><span>WORK.</span></h2>
+    <div class="projects-list">
+      <article class="project">
+        <div class="project-number">01</div>
+        <div class="project-info">
+          <div class="project-top"><span>PYTHON / FASTAPI</span><span>BACKEND</span></div>
+          <h3>API BACKEND</h3>
+          <p>REST API with authentication, CRUD operations, database integration and JSON handling.</p>
+          <div class="project-tech"><span>PYTHON</span><span>FASTAPI</span><span>REST</span><span>JSON</span></div>
+          <a href="https://github.com/SkyJocks" target="_blank" rel="noopener noreferrer" class="project-link">GITHUB PROFILE ↗</a>
+        </div>
+        <div class="project-preview"><div class="preview-window"><div class="preview-header"><span></span><span></span><span></span></div><div class="preview-body"><div class="preview-line long"></div><div class="preview-line"></div><div class="preview-line medium"></div><div class="preview-chart"><i></i><i></i><i></i><i></i><i></i></div></div></div></div>
+      </article>
+
+      <article class="project">
+        <div class="project-number">02</div>
+        <div class="project-info">
+          <div class="project-top"><span>AUTOMATION / SCRAPING</span><span>PYTHON</span></div>
+          <h3>AUTOMATION SYSTEM</h3>
+          <p>Automation scripts and data extraction tools using APIs, request handling and practical data workflows.</p>
+          <div class="project-tech"><span>PYTHON</span><span>APIs</span><span>AUTOMATION</span><span>SCRAPING</span></div>
+          <a href="https://github.com/SkyJocks" target="_blank" rel="noopener noreferrer" class="project-link">GITHUB PROFILE ↗</a>
+        </div>
+        <div class="project-preview"><div class="preview-window"><div class="preview-header"><span></span><span></span><span></span></div><div class="preview-body"><div class="preview-block"></div><div class="preview-line"></div><div class="preview-line medium"></div></div></div></div>
+      </article>
+
+      <article class="project">
+        <div class="project-number">03</div>
+        <div class="project-info">
+          <div class="project-top"><span>GO / CLI / API</span><span>LEARNING</span></div>
+          <h3>GO APPLICATIONS</h3>
+          <p>Tools developed in Go for API consumption and basic concurrency while expanding my backend and systems knowledge.</p>
+          <div class="project-tech"><span>GO</span><span>API</span><span>CLI</span><span>CONCURRENCY</span></div>
+          <a href="https://github.com/SkyJocks" target="_blank" rel="noopener noreferrer" class="project-link">GITHUB PROFILE ↗</a>
+        </div>
+        <div class="project-preview"><div class="preview-window"><div class="preview-header"><span></span><span></span><span></span></div><div class="preview-body terminal-preview"><div>$ go run server.go</div><div class="preview-success">server started</div><div>listening :8080</div></div></div></div>
+      </article>
+
+      <article class="project project-featured">
+        <div class="project-number">04</div>
+        <div class="project-info">
+          <div class="project-top"><span>SOFTWARE PROJECT</span><span>ELDORADO</span></div>
+          <h3>ELDORADO</h3>
+          <p>Project focused on management and analysis of poultry mortality data. Detailed implementation and repository link will be added when the project presentation is ready.</p>
+          <div class="project-tech"><span>BACKEND</span><span>PYTHON</span><span>DATA</span></div>
+          <a href="https://github.com/SkyJocks" target="_blank" rel="noopener noreferrer" class="project-link">GITHUB PROFILE ↗</a>
+        </div>
+        <div class="project-preview featured-preview"><div class="preview-window"><div class="preview-header"><span></span><span></span><span></span></div><div class="preview-body"><div class="preview-block"></div><div class="preview-line long"></div><div class="preview-line medium"></div></div></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="section-label">05 / CONTACT</div>
+  <div class="contact-content">
+    <div class="contact-small">HAVE A PROJECT IN MIND?</div>
+    <h2>LET'S<br><span>BUILD.</span></h2>
+    <p class="contact-description">For software projects, backend systems, automation or interesting ideas, you can find me here.</p>
+    <div class="contact-links">
+      <a href="https://github.com/SkyJocks" target="_blank" rel="noopener noreferrer" class="contact-link magnetic"><span>GITHUB</span><span>↗</span></a>
+      <a href="https://www.linkedin.com/in/andres-sanchez-pydev/" target="_blank" rel="noopener noreferrer" class="contact-link magnetic"><span>LINKEDIN</span><span>↗</span></a>
+      <a href="mailto:as5017266.22@gmail.com" class="contact-link magnetic"><span>EMAIL · AS5017266.22@GMAIL.COM</span><span>↗</span></a>
+      <a href="assets/andres-sanchez-cv.pdf" target="_blank" rel="noopener noreferrer" class="contact-link magnetic"><span>OPEN CV</span><span>↗</span></a>
+      <a href="assets/andres-sanchez-cv.pdf" download class="contact-link magnetic"><span>DOWNLOAD CV</span><span>↓</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div>© 2026 ANDRÉS SANCHEZ</div><div>PYTHON · GO · APIs · AUTOMATION</div><div>SYSTEM://ONLINE</div></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
